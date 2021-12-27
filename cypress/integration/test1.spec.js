@@ -2,7 +2,7 @@
 
 describe('My first test', () => {
     it('Does not do much', () => {
-        cy.visit('/');
+        cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/');
         cy.get('.search-keyword').type('ca');
         cy.wait(2000);
         // cy.get('div[class="product"]').should('have.length', 4);

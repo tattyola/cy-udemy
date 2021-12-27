@@ -2,7 +2,7 @@
 
 describe('My second test', () => {
     it('Test case', () => {
-        cy.visit('/');
+        cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/');
         cy.get('.search-keyword').type('ca');
         cy.wait(2000);
         cy.get('.products').as('productLocator');
